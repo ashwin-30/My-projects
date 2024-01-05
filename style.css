@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.sidebar {
+    height: 100vh; /* 100% of the viewport height */
+    width: 22%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds height */
+}
+
+.content {
+    margin-left: 100px; /* Adjust this value to match the sidebar width */
+    padding: 5px;
+}
