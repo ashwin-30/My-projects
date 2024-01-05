@@ -20,7 +20,7 @@ function goLiveColor() {
 }
 
 function goLiveText() {
-    window.open("https://ashwin-30.github.io/colour-flipper/", "_blank");
+    window.open("https://ashwin-30.github.io/text-to-speech/", "_blank");
 }
 // view code 
 function viewDice() {
@@ -44,5 +44,5 @@ function viewColor() {
 }
 
 function viewText() {
-    window.open("https://github.com/ashwin-30/colour-flipper", "_blank");
+    window.open("https://github.com/ashwin-30/text-to-speech", "_blank");
 }
