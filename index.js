@@ -18,6 +18,10 @@ function goLiveTin() {
 function goLiveColor() {
     window.open("https://ashwin-30.github.io/colour-flipper/", "_blank");
 }
+
+function goLiveText() {
+    window.open("https://ashwin-30.github.io/colour-flipper/", "_blank");
+}
 // view code 
 function viewDice() {
     window.open("https://github.com/ashwin-30/dice-game", "_blank");
@@ -36,5 +40,9 @@ function viewTin() {
 }
 
 function viewColor() {
+    window.open("https://github.com/ashwin-30/colour-flipper", "_blank");
+}
+
+function viewText() {
     window.open("https://github.com/ashwin-30/colour-flipper", "_blank");
 }
