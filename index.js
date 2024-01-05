@@ -16,7 +16,7 @@ function goLiveTin() {
 }
 
 function goLiveColor() {
-    window.open("https://ashwin-30.github.io/drum-kit/", "_blank");
+    window.open("https://ashwin-30.github.io/colour-flipper/", "_blank");
 }
 // view code 
 function viewDice() {
