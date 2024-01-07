@@ -52,5 +52,5 @@ function viewText() {
 }
 
 function viewLove() {
-    window.open("https://github.com/ashwin-30/love-calculator/settings/pages", "_blank");
+    window.open("https://github.com/ashwin-30/love-calculator", "_blank");
 }
