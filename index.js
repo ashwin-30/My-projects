@@ -26,6 +26,10 @@ function goLiveText() {
 function goLiveLove() {
     window.open("https://ashwin-30.github.io/love-calculator/", "_blank");
 }
+
+function goLiveBmi() {
+    window.open("https://ashwin-30.github.io/bmi-calculator/", "_blank");
+}
 // view code 
 function viewDice() {
     window.open("https://github.com/ashwin-30/dice-game", "_blank");
@@ -53,4 +57,8 @@ function viewText() {
 
 function viewLove() {
     window.open("https://github.com/ashwin-30/love-calculator", "_blank");
+}
+
+function viewBmi() {
+    window.open("https://github.com/ashwin-30/bmi-calculator/", "_blank");
 }
