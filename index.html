@@ -9,86 +9,154 @@
   
 </head>
 <body>
-<div class="container-fluid">
-<div class="row">
-  <!-- sidebar -->
-  <div class="col-md-4 col-lg-3 p-3 text-bg-dark d-md-block d-lg-block d-xl-block d-xxl-block">
-  <div class="sidebar">
-  <div class="col-md-4 col-sm-12 p-3 text-bg-dark" style="width: 100%">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-      <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-      <span class="fs-4">Sidebar</span>
-    </a>
-    <hr>
-    <ul class="nav nav-pills flex-column mb-auto">
-      <li class="nav-item">
-        <a href="#" class="nav-link active" aria-current="page">
-          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
-          Home
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
-          Projects
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
-          Skills
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
-          Experience
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
-          Education
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
-          Blog
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
-          Contact
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
-          Resume
-        </a>
-      </li>
-    </ul>
-    <hr>
-    <div class="dropdown">
-      <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-        <img src="./assets/ashwinnobgcolor.png" alt="" width="40" height="40" class="rounded-circle me-2">
-        <strong>Be_like_Ashwin</strong>
-      </a>
-      <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-        <li><a class="dropdown-item" href="#">New project...</a></li>
-        <li><a class="dropdown-item" href="#">Settings</a></li>
-        <li><a class="dropdown-item" href="#">Profile</a></li>
-        <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="#">Sign out</a></li>
-      </ul>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-11 sidebar">
+        <div
+          class="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary sidebar"
+          style="width: 280px"
+        >
+          <!-- Your existing sidebar content -->
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+          >
+            <svg class="bi pe-none me-2" width="40" height="32">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+            <span class="fs-4">MY PROJECTS</span>
+          </a>
+          <hr />
+          <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item">
+              <a
+              href=""
+              class="nav-link active"
+              style="background-color: #294b29"
+              aria-current="page"
+              onmouseover="this.style.backgroundColor='#789461';"
+              onmouseout="this.style.backgroundColor='#294B29';"
+              >
+                <svg class="bi pe-none me-2" width="16" height="16">
+                  <use xlink:href="#"></use>
+                </svg>
+                JavaScript Mini Projects
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.canva.com/design/DAF9BMbBu1Y/pXyI9Gq3sqDqFOvaaAx6xQ/view?utm_content=DAF9BMbBu1Y&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+                target="_blank"
+                class="nav-link link-body-emphasis"
+              >
+                <svg class="bi pe-none me-2" width="16" height="16">
+                  <use xlink:href="#speedometer2"></use>
+                </svg>
+                Resume
+              </a>
+            </li>
+             <!--<li>
+              <a
+                href=""
+                class="nav-link link-body-emphasis"
+              >
+                <svg class="bi pe-none me-2" width="16" height="16">
+                  <use xlink:href="#table"></use>
+                </svg>
+                Bar tax
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="nav-link link-body-emphasis"
+              >
+                <svg class="bi pe-none me-2" width="16" height="16">
+                  <use xlink:href="#table"></use>
+                </svg>
+                Restaurant Profit
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="nav-link link-body-emphasis"
+              >
+                <svg class="bi pe-none me-2" width="16" height="16">
+                  <use xlink:href="#table"></use>
+                </svg>
+                Hotel Profit
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="nav-link link-body-emphasis"
+              >
+                <svg class="bi pe-none me-2" width="16" height="16">
+                  <use xlink:href="#table"></use>
+                </svg>
+                Bar Profit
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="nav-link link-body-emphasis"
+              >
+                <svg class="bi pe-none me-2" width="16" height="16">
+                  <use xlink:href="#table"></use>
+                </svg>
+                Restaurant Loss
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="nav-link link-body-emphasis"
+              >
+                <svg class="bi pe-none me-2" width="16" height="16">
+                  <use xlink:href="#table"></use>
+                </svg>
+                Hotel Loss
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="nav-link link-body-emphasis"
+              >
+                <svg class="bi pe-none me-2" width="16" height="16">
+                  <use xlink:href="#table"></use>
+                </svg>
+                Bar Loss
+              </a>
+            </li> -->
+          </ul>
+          <hr class="bottomHR" />
+          
+          <a href="https://ashwin-30.github.io/portfolio-/"
+          target="_blank"
+          class="d-flex align-items-center link-body-emphasis text-decoration-none"
+       >
+         <img src="https://github.com/mdo.png"
+              alt=""
+              width="32"
+              height="32"
+              class="rounded-circle me-2"
+         />
+         <strong>mdo</strong>
+       </a>
+       
+            
+          
+        </div>
+      </div>
     </div>
   </div>
-</div>
-</div>
-  <!--center -->
-  <div class="col-md-8 col-lg-9">
+<div class="content-body">
+<div class="container-fluid row">
+  <div class="row guest-database-wrapper col-md-8 col-lg-12">
     <div class="container col-12">
 
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
